@@ -1,0 +1,84 @@
+*{
+    margin: 1px;
+    padding: 2px;
+
+}
+body {
+   
+    background-image:url('dl_images/bg1.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cent h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, Arial, sans-serif;
+     
+}
+.container {
+    margin:100px;
+    background: linear-gradient(-50deg, black, #2d6e54, #7fb39e);
+    text-align: center;
+    height: 400px;
+    width: 280px;
+    border-radius: 3px;
+    position: relative;
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    
+    transform: translate(-50%, -50%);
+}
+h1{
+    margin: 5px;
+    text-decoration-color: aquamarine;
+    text-overflow: clip;
+    text-shadow: cadetblue;
+
+    
+}
+.row1 .b1{
+
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    background-color: azure;
+    color: black;
+    border-radius: 8px;
+    text-shadow: black;
+}
+
+.row1 button.b2{
+
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: maroon;
+    color: black;
+    border-radius: 8px;
+
+    text-shadow: black;
+}
+
+.dd button {
+    background-color: aquamarine ;
+    color: black;
+    height: 50px;
+    width: 50px;
+    text-shadow: black;
+    text-emphasis: 50%;
+    border-radius: 8px;
+}
+
+.dd button.bb {
+    background-color: orange ;
+    color: black;
+    height: 50px;
+    width: 50px;
+    text-shadow: black;
+    text-emphasis: 50%;
+    border-radius: 8px;
+}

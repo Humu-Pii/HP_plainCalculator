@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title>
+        <link rel="stylesheet" href="styleCal.css">
+        <script src="scriptCal.js"></script>
+    </head>
+    <body>
+        
+        <div class="cent"><p><a href=fun.html>back</a></p>
+            <h1>Calculator</h1>
+        </div>
+     <div class="container">
+        <h1>Simple Calculator</h1>
+        <br>
+        <div class="row1">
+            <input type="text" id="result" placeholder="Result" class="b1" readonly>
+            <button class="b2" onclick="clearScreen()" id="clear">C</button>
+        </div> 
+
+        <div class="dd">
+            <button onclick="updScreen(7)"><strong>7</strong></button>
+            <button onclick="updScreen(8)"><strong>8</strong></button>
+            <button onclick="updScreen(9)"><strong>9</strong></button>
+            <button class="bb" onclick="updScreen('/')"><strong>/</strong></button>
+        </div>
+
+        <div class="dd">
+            <button onclick="updScreen(4)"><strong>4</strong></button>
+            <button onclick="updScreen(5)" ><strong>5</strong></button>
+            <button onclick="updScreen(6)"><strong>6</strong></button>
+            <button class="bb" onclick="updScreen('*')"><strong>*</strong></button>
+        </div>
+
+        <div class="dd">
+            <button onclick="updScreen(1)"><strong>1</strong></button>
+            <button onclick="updScreen(2)"><strong>2</strong></button>
+            <button onclick="updScreen(3)"><strong>3</strong></button>
+            <button class="bb" onclick="updScreen('+')"><strong>+</strong></button>
+        </div>
+
+        <div class="dd">
+            <button onclick="updScreen(0)"><stromg>0</stromg></button>
+            <button onclick="updScreen('.')"><strong>.</strong></button>
+            <button class="bb" onclick="updScreen('-')"><strong>-</strong></button>
+            <button class="bb" onclick="result.value = eval(result.value)"><strong>=</strong></button>
+        </div>
+     </div>
+
+     
+    </body>
+</html>
